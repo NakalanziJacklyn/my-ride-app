@@ -1,0 +1,160 @@
+*,html.body{
+    margin: 0;
+    padding: 0;
+}
+.why{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    background: aqua;
+}
+
+header{
+    background-color: darkturquoise;
+    height: 112px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+header nav{
+    float: right;
+}
+.logo{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+}
+header nav ul li a{
+    text-decoration: none;
+    padding-right: 38px;
+    font-weight: bold;
+    color: #fff;
+    transition: all 0.5s ease-in;
+    font-size: 20px;
+    margin-bottom: 200px;
+}
+header nav ul li a:hover{
+  
+    color: #f00; 
+}
+.img{
+    background-image:-moz-linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("image/dig.png");
+    background-size:100% 100%;
+}
+.slider, .slider ul, .slider ul li{
+    height: 710px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+.slider h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+.slider span{
+    color: blue;
+}
+.slider a{
+    padding: 20px;
+    background-color:aqua;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.btns{
+    margin-top:-500px;
+    
+}
+.j{
+    margin-left: 80px;
+    background-color: rgb(6, 58, 1);
+    border-radius: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+p{
+    font-size: 20px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 2px solid black;
+  }
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 4px solid black;
+  }
+  input[type="text"], input[type="password"],input[type="email"] ,button{
+    width: 90%;
+    padding: 0;
+    text-align: center;
+    background: antiquewhite;
+    margin:0 auto;
+    border:0;
+    height:50px;
+    border-radius:7px;
+    font-size: 16px;
+    display: block;
+    margin-top: 20px; 
+    border-radius: 20px;
+    border: 4px solid black;
+}
+  
+
+  .onclick{
+    display: none;
+    position: absolute;
+    top:65%;
+    left:45%;
+    background-color: lime;
+    border-radius: 45px;
+  }
+
+  .client{
+    display: none;
+    position: absolute;
+    top:65%;
+    left:45%;
+    background-color: lime;
+    border-radius: 45px;
+  }
+
+.driver{
+    display: none;
+    position: absolute;
+    top:65%;
+    left:45%;
+    background-color: lime;
+    border-radius: 45px;
+  }
+.popup{
+    display: none;
+    position: absolute;
+    top:65%;
+    left:45%;
+    background-color: lime;
+    border-radius: 45px;
+}
+.popup:target{
+    
+    display: block;
+}
+.onclick:target{
+    display: block;
+}
+.client:target{
+    display: block;
+}
+.driver:target{
+    display: block;
+}
